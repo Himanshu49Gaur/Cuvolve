@@ -104,3 +104,13 @@ Speedup: 3.77x
 ```
 
 ---
+
+## Performance Analysis
+
+| Implementation   | Average Time (ms) | Speedup |
+|------------------|------------------|---------|
+| Global Memory    | 12.34            | 1.00x   |
+| Shared Memory    | 3.27             | 3.77x   |
+| Constant Memory  | 2.98             | 4.14x   |
+
+*Results may vary depending on GPU hardware and image size.*
