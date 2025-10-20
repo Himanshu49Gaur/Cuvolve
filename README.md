@@ -35,3 +35,14 @@ Through these implementations, Cuvolve highlights how CUDA memory models and thr
 - Explore synchronization and coalesced memory access for efficient GPU usage  
 
 ---
+
+## Project Structure
+
+| File / Folder | Description |
+|----------------|-------------|
+| `cuvolve.cu` | Main CUDA source file implementing convolution kernels |
+| `Makefile` | Build configuration file for compiling CUDA code |
+| `input/` | Directory containing sample input images |
+| `output/` | Directory where processed images are saved |
+| `README.md` | Project documentation |
+| `report.pdf` | Optional report describing implementation and results |
