@@ -114,3 +114,21 @@ Speedup: 3.77x
 | Constant Memory  | 2.98             | 4.14x   |
 
 *Results may vary depending on GPU hardware and image size.*
+
+---
+
+## Experimentation Notes
+
+- Modify filter size inside the `.cu` file (e.g., 3x3, 5x5, 7x7 kernels)
+- Change block dimensions to analyze occupancy and throughput
+- Test with various input image resolutions
+
+---
+
+## Understanding Convolution in CUDA
+
+- Each CUDA thread processes one output pixel by accessing a small image patch.
+- Shared memory stores these patches locally within thread blocks to minimize redundant global memory access.
+- Constant memory holds the filter kernel and broadcasts it efficiently across all threads for parallelism and performance.
+
+---
