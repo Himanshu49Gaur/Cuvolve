@@ -132,3 +132,10 @@ Speedup: 3.77x
 - Constant memory holds the filter kernel and broadcasts it efficiently across all threads for parallelism and performance.
 
 ---
+
+## References
+
+- NVIDIA CUDA C Programming Guide
+- Parallel Programming for GPU by David Kirk and Wen-mei Hwu
+- “Programming Massively Parallel Processors” – Pearson Education
+- CUDA Samples (NVIDIA Developer Zone)
