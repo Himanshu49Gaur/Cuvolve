@@ -26,3 +26,12 @@ Through these implementations, Cuvolve highlights how CUDA memory models and thr
 - Supports both grayscale and RGB images (depending on configuration)  
 
 ---
+
+## Key Learning Objectives
+
+- Understand CUDA memory hierarchy (global, shared, constant memory)  
+- Learn kernel design and thread mapping for 2D convolution  
+- Analyze performance trade-offs between memory models  
+- Explore synchronization and coalesced memory access for efficient GPU usage  
+
+---
