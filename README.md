@@ -70,14 +70,14 @@ Through these implementations, Cuvolve highlights how CUDA memory models and thr
 Ensure CUDA Toolkit is Installed
 
 
-`` 
+``` 
 nvcc --version
 Build the Project
-``
-``
+```
+```
 nvcc cuvolve.cu -o cuvolve
 (Alternatively, use make if a Makefile is provided)
-``
+```
 
 **Run the Program** 
 
