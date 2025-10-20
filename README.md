@@ -15,3 +15,14 @@ It focuses on comparing performance between:
 Through these implementations, Cuvolve highlights how CUDA memory models and thread block optimizations impact the speed and efficiency of convolution operations in real-world GPU-accelerated applications.
 
 ---
+
+## Features
+
+- Parallelized 2D convolution using CUDA kernels  
+- Shared memory optimization for performance boost  
+- Constant memory for filter storage  
+- Timing and performance benchmarking  
+- Scalable design for different image sizes and filters  
+- Supports both grayscale and RGB images (depending on configuration)  
+
+---
