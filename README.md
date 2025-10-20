@@ -64,7 +64,7 @@ Through these implementations, Cuvolve highlights how CUDA memory models and thr
 ## Installation & Setup
 
 1. **Clone the Repository**
-   ```bash
+   ```
    git clone https://github.com/Himanshu49Gaur/Cuvolve.git
    cd Cuvolve
 Ensure CUDA Toolkit is Installed
@@ -78,6 +78,7 @@ Build the Project
 nvcc cuvolve.cu -o cuvolve
 (Alternatively, use make if a Makefile is provided)
 ``
+
 **Run the Program** 
 
 ```
@@ -85,18 +86,18 @@ nvcc cuvolve.cu -o cuvolve
 View Results
 The convolved image will be saved inside the output/ directory.
 ```
-`
+```
 Example Usage
 Command:
-`
-`
+```
+```
 ./cuvolve input/lena.jpg output/lena_convolved.jpg
 Output Example:
-`
-``
+```
+```
 Convolution using global memory: 12.34 ms
 Convolution using shared memory: 3.27 ms
 Speedup: 3.77x
-``
+```
 
 ---
