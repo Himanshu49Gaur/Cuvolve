@@ -149,3 +149,10 @@ B.Tech Student, VIT Bhopal University
 Cybersecurity Enthusiast | AI & GPU Computing Researcher  
 GitHub: [https://github.com/Himanshu49Gaur](https://github.com/Himanshu49Gaur)  
 LinkedIn: [https://linkedin.com/in/himanshu-gaur-305006282/](https://linkedin.com/in/himanshu-gaur-305006282/)
+
+---
+
+## License
+
+This project is released under the MIT License.  
+You are free to use, modify, and distribute it for academic or research purposes.
