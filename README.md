@@ -86,14 +86,17 @@ nvcc cuvolve.cu -o cuvolve
 View Results
 The convolved image will be saved inside the output/ directory.
 ```
-```
+
 Example Usage
+
 Command:
-```
+
 ```
 ./cuvolve input/lena.jpg output/lena_convolved.jpg
-Output Example:
 ```
+
+Output Example:
+
 ```
 Convolution using global memory: 12.34 ms
 Convolution using shared memory: 3.27 ms
