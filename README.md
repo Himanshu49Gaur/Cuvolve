@@ -139,3 +139,13 @@ Speedup: 3.77x
 - Parallel Programming for GPU by David Kirk and Wen-mei Hwu
 - “Programming Massively Parallel Processors” – Pearson Education
 - CUDA Samples (NVIDIA Developer Zone)
+
+---
+
+## About the Author
+
+**Himanshu Gaur**  
+B.Tech Student, VIT Bhopal University  
+Cybersecurity Enthusiast | AI & GPU Computing Researcher  
+GitHub: [https://github.com/Himanshu49Gaur](https://github.com/Himanshu49Gaur)  
+LinkedIn: [https://linkedin.com/in/himanshu-gaur-305006282/](https://linkedin.com/in/himanshu-gaur-305006282/)
