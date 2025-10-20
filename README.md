@@ -46,3 +46,17 @@ Through these implementations, Cuvolve highlights how CUDA memory models and thr
 | `output/` | Directory where processed images are saved |
 | `README.md` | Project documentation |
 | `report.pdf` | Optional report describing implementation and results |
+
+---
+
+## Requirements
+
+| Requirement | Version / Details |
+|--------------|-------------------|
+| CUDA Toolkit | ≥ 11.0 |
+| NVIDIA GPU | CUDA-enabled GPU with compute capability ≥ 5.0 |
+| C++ Compiler | GCC or NVCC-compatible compiler |
+| Operating System | Linux (Ubuntu preferred) or Windows with WSL2 |
+| Dependencies | OpenCV (optional, for image loading and display) |
+
+---
